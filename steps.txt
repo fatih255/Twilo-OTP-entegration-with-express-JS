@@ -1,0 +1,16 @@
+npm init -y
+mkdir public controllers views routes config models
+npm install nodemon -D
+npm install express express-session connect-flash --save
+npm install mongoose --save
+npm install bcryptjs
+npm install ejs express-ejs-layouts --save
+npm install intl-tel-input
+npm install passport passport-local
+npm install twilio
+npm install dotenv
+
+
+
+//extras
+npm install touch-cli -g   for create file with touch command
